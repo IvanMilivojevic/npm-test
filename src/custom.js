@@ -29,7 +29,7 @@ class Person extends Human {
     super(gender);
     this.name = name;
     this.surname = surname;
-    this.fullName = function() {
+    this.fullName = () => {
       console.log(this);
       console.log(this.name + " " + this.surname);
     };
